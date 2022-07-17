@@ -1,6 +1,16 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 and Vuetify starter
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+Personal starter for projects with Nuxt 3 and Vuetify 3.
+
+## What's included
+
+- Nuxt 3 starter
+- Vuetify 3 with Nuxt plugin (credit: [Cody Bontecou](https://codybontecou.com/how-to-use-vuetify-with-nuxt-3.html#configure-nuxt-3-to-use-our-new-plugin))
+- `@mdi/js` SVG icon pack
+- Prettier, with a Husky pre-commit hook
+- Pre-made header and footer
+- Default layout to include the header and footer
+- Two pages, to test navigation
 
 ## Setup
 
@@ -25,6 +35,8 @@ Start the development server on http://localhost:3000
 npm run dev
 ```
 
+Note: Completion in VS Code with Volar will not work unless you've ran the dev server at least once.
+
 ## Production
 
 Build the application for production:
@@ -38,5 +50,3 @@ Locally preview production build:
 ```bash
 npm run preview
 ```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
