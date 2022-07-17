@@ -1,6 +1,6 @@
 # Nuxt 3 and Vuetify starter
 
-Personal starter for projects with Nuxt 3 and Vuetify 3.
+Personal starter for projects with Nuxt 3 and Vuetify 3. Feel free to use it, but I take no responsibility if anything goes wrong.
 
 ## What's included
 
@@ -8,9 +8,11 @@ Personal starter for projects with Nuxt 3 and Vuetify 3.
 - Vuetify 3 with Nuxt plugin (credit: [Cody Bontecou](https://codybontecou.com/how-to-use-vuetify-with-nuxt-3.html#configure-nuxt-3-to-use-our-new-plugin))
 - `@mdi/js` SVG icon pack
 - Prettier, with a Husky pre-commit hook
+- Make Prettier use tabs for indentation
 - Pre-made header and footer
 - Default layout to include the header and footer
 - Two pages, to test navigation
+- Simple Dockerfile, should it be needed
 
 ## Setup
 
