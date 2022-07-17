@@ -1,13 +1,11 @@
 <template>
 	<v-app>
-		<TheNavbar/>
+		<TheNavbar />
 		<v-main class="my-4">
 			<slot></slot>
 		</v-main>
-		<TheFooter/>
+		<TheFooter />
 	</v-app>
 </template>
 
-<script lang="ts" setup>
-
-</script>
+<script lang="ts" setup></script>

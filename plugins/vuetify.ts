@@ -3,21 +3,21 @@
 import { createVuetify } from "vuetify";
 import * as components from "vuetify/components";
 import * as directives from "vuetify/directives";
-import { aliases, mdi } from "vuetify/iconsets/mdi-svg"
+import { aliases, mdi } from "vuetify/iconsets/mdi-svg";
 
-export default defineNuxtPlugin(nuxtApp => {
+export default defineNuxtPlugin((nuxtApp) => {
 	const vuetify = createVuetify({
 		components,
 		directives,
 		theme: {
-			defaultTheme: "dark"
+			defaultTheme: "dark",
 		},
 		icons: {
 			aliases,
 			sets: {
-				mdi
+				mdi,
 			},
-			defaultSet: "mdi"
+			defaultSet: "mdi",
 		},
 	});
 	nuxtApp.vueApp.use(vuetify);

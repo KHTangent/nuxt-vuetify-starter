@@ -6,12 +6,8 @@
 			</v-icon>
 		</v-app-bar-nav-icon>
 		<v-tabs>
-			<v-tab to="/">
-				Home
-			</v-tab>
-			<v-tab to="/about">
-				About
-			</v-tab>
+			<v-tab to="/"> Home </v-tab>
+			<v-tab to="/about"> About </v-tab>
 		</v-tabs>
 	</v-app-bar>
 </template>
